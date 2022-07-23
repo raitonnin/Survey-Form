@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Food Survey</h1>
+    <div class="survey">
+    <p id="description">Hello, </br> I am interested in finding out demographics for who is most likely to prefer a particular food. I will be taking many variables in order to do so. However I will run many studies that also involve individual variables isolated from any others to see if something stands out. Please help me in doing so by providing me answers to a few simple questions and if you do not mind also providing me while it is not required, your name and email.</p>
+    <form id="survey-form">
+      <label id="name-label">
+      Name <input id="name" type="text" placeholder="john doe" required>
+      </label>
+      <label id="email-label">
+        </br>
+      Email <input id="email" type="email" placeholder ="email@this.com" required>
+      </br>
+      </label>
+      <label id="number-label"> Age
+      <input id="number" type="number" min="0" max="100" placeholder="0" required/>
+      <div class="select-food">
+      Please select your favorite food:
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Pizza</option>
+        <option value="2">Cheeseburger</option>
+        <option value="3">Hotdog</option>
+        <option value="4">Taco</option>
+        </select>
+        </div>
+      </label>
+      <div class="breakfast">
+      I eat breakfast
+      <input type="radio" name="value" value="value"/></br>
+      I do not eat breakfast
+      <input type="radio" name="value" value="value"/>
+      </div>
+      <div class="checkbox">
+      I like cake
+      <input type="checkbox" value="value"/>
+      <p></p>
+      I like brownies
+      <input type="checkbox" value="value"/>
+      </div>
+      <textarea></textarea>
+      <input type="submit" value="Submit" id="submit" />
+      </div>
+    </form>
+  </body>
+  </html>

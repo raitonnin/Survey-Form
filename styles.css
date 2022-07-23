@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(45, 45, 92);
+}
+h1 {
+  text-align: center;
+  margin: 50px 300px;
+  font-family: "Papyrus", sans-serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+.survey {
+  background: rgb(3, 0, 58);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 0px 50px;
+}
+p {
+  text-align: left;
+  margin: 0px 50px;
+  background: rgb(3, 0, 58);
+  border-radius: 5px 5px 0px 0px;
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", sans-serif;
+  font-size: 20px;
+}
+form {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.select-food {
+  text-align: left;
+  margin: 5px;
+}
+#email {
+  margin-top: 5px;
+  text-align: left;
+}
+#number-label {
+  margin-top: 5px;
+  text-align: left;
+}
+#email-label {
+  margin-top: 5px;
+  text-align: left;
+}
+#dropdown {
+  margin-top: 5px;
+  text-align: left;
+}
+.breakfast {
+  text-align: left;
+  margin: 5px;
+}
+.checkbox {
+  text-align: left;
+  margin: 5px;
+}
